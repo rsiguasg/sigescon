@@ -28,6 +28,20 @@
             </li>
             <li class="treeview nav-hover">
                 <a href="#" >
+                    <i class="fa fa-users fa-fw ">
+                        <div class="icon-bg bg-green "></div>
+                    </i>
+                    <span class="menu-title">Usuarios</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+
+                <ul class="treeview-menu nav-second-level">
+                    <li><a href="{{ action('PageController@regUsuarios') }}"><i class="fa fa-angle-double-right submenu-title"></i> Registro Usuarios</a></li>    
+                    <li><a href="{{ action('PageController@infoUsuarios') }}"><i class="fa fa-angle-double-right"></i>Informe Usuarios</a></li>
+                </ul> 
+            </li>
+            <li class="treeview nav-hover">
+                <a href="#" >
                     <i class="fa fa-send-o fa-fw ">
                         <div class="icon-bg bg-green "></div>
                     </i>

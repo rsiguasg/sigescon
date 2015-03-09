@@ -9,6 +9,14 @@ class PageController extends BaseController {
 	|	@rsiguasg	
 	|	SISOH 2015
 	*/
+	public function regUsuarios()
+    {        
+        return View::make('pages.registroUsuarios');
+    }
+    public function infoUsuarios()
+    {        
+        return View::make('pages.informeUsuarios');
+    }
 
     public function regCondominio()
     {        

@@ -34,5 +34,7 @@ Route::group(array('before' => 'auth'), function()
 
     Route::get('logout', 'AuthController@logOut');
     Route::get('registro_condominio', 'PageController@regCondominio');
+    Route::get('registro_usuarios', 'PageController@regUsuarios');
+    Route::get('informe_usuarios', 'PageController@infoUsuarios');
    
 });

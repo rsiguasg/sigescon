@@ -19,7 +19,24 @@
 	        <!--END CHAT FORM-->
 	         <!--BEGIN PAGE WRAPPER-->
 	        <div id="page-wrapper">
-	        	@include('includes.rutapagina')
+	        	<div id="title-breadcrumb-option-demo" class="page-title-breadcrumb">
+	        		<div class="page-header pull-left">
+	        			<div class="page-title">
+	        				@yield('titulo_ruta')
+	        			</div>
+	        		</div>
+	        		<ol class="breadcrumb page-breadcrumb pull-right">
+	        			<li>
+	        				
+	        				@yield('icono_ruta')
+	        				<i class="fa fa-angle-right"></i>&nbsp;&nbsp;
+	        			</li>
+	        			<li class="active">@yield('ruta_name')</li>
+	        		</ol>
+	        		<div class="clearfix">
+	        			
+	        		</div>
+	        	</div>
 	            <!--BEGIN TITLE & BREADCRUMB PAGE-->                
 	            <!--END TITLE & BREADCRUMB PAGE-->
 	            <!--BEGIN CONTENT-->
